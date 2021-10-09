@@ -23,10 +23,10 @@ variable "port" {
   description = "Port exposed by the docker image to redirect traffic to"
 }
 
-variable "count" {
-  description = "Number of docker containers to run"
-  default     = "2"
-}
+# variable "count" {
+#   description = "Number of docker containers to run"
+#   default     = "2"
+# }
 
 variable "cpu" {
   description = "Fargate instance CPU units to provision (1 vCPU = 1024 CPU units)"
